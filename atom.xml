@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kddksh.github.io</id>
     <title>DKK</title>
-    <updated>2019-09-22T14:53:11.470Z</updated>
+    <updated>2019-09-22T14:55:21.158Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kddksh.github.io"/>
     <link rel="self" href="https://kddksh.github.io/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://kddksh.github.io/post/hello">
         </link>
         <updated>2019-02-19T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>DKK</strong> 静态知识链接平台。</p>
+        <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>KD-DK-SH</strong> 静态知识链接平台。<br>
+^ ^</p>
 <h4 id="step-1-搬砖入门"><a href="https://kddksh.github.io/post/step1/">STEP 1 搬砖入门</a></h4>
 <p>了解 KD&amp;DK<br>
 了解 ERP行业基础知识<br>
@@ -32,7 +33,8 @@
 掌握 软技能<br>
 掌握 专业工具</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>DKK</strong> 静态知识链接平台。</p>
+        <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>KD-DK-SH</strong> 静态知识链接平台。<br>
+^ ^</p>
 <h4 id="step-1-搬砖入门"><a href="https://kddksh.github.io/post/step1/">STEP 1 搬砖入门</a></h4>
 <p>了解 KD&amp;DK<br>
 了解 ERP行业基础知识<br>
