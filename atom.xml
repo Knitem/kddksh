@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kddksh.github.io</id>
     <title>KD-DK-SH</title>
-    <updated>2019-09-22T15:13:52.063Z</updated>
+    <updated>2019-09-22T15:21:10.741Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kddksh.github.io"/>
     <link rel="self" href="https://kddksh.github.io/atom.xml"/>
@@ -16,13 +16,13 @@
         <link href="https://kddksh.github.io/post/hello">
         </link>
         <updated>2019-02-19T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>KD-DK-SH</strong> ，一个静态知识链接平台。</p>
+        <summary type="html"><![CDATA[<p>欢迎来到 <strong>KD-DK-SH</strong> 。</p>
 <h3 id="快速索引">快速索引</h3>
 <p><a href="https://kddksh.github.io/post/step-1/">STEP 1 搬砖入门</a><br>
 <a href="https://kddksh.github.io/post/step-2/">STEP 2 搬砖说明（配置中）</a><br>
 <a href="https://kddksh.github.io/post/step-3/">STEP 3 搬砖装备（配置中）</a></p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>KD-DK-SH</strong> ，一个静态知识链接平台。</p>
+        <content type="html"><![CDATA[<p>欢迎来到 <strong>KD-DK-SH</strong> 。</p>
 <h3 id="快速索引">快速索引</h3>
 <p><a href="https://kddksh.github.io/post/step-1/">STEP 1 搬砖入门</a><br>
 <a href="https://kddksh.github.io/post/step-2/">STEP 2 搬砖说明（配置中）</a><br>
