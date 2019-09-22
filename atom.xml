@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://kddksh.github.io</id>
-    <title>Knitem</title>
-    <updated>2019-09-22T14:29:50.647Z</updated>
+    <title>DKK</title>
+    <updated>2019-09-22T14:36:23.582Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://kddksh.github.io"/>
     <link rel="self" href="http://kddksh.github.io/atom.xml"/>
     <subtitle>临渊羡鱼，不如退而结网。</subtitle>
     <logo>http://kddksh.github.io/images/avatar.png</logo>
     <icon>http://kddksh.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Knitem</rights>
+    <rights>All rights reserved 2019, DKK</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Knitem]]></title>
-        <id>http://kddksh.github.io/post/hello-knitem</id>
-        <link href="http://kddksh.github.io/post/hello-knitem">
+        <title type="html"><![CDATA[Hello]]></title>
+        <id>http://kddksh.github.io/post/hello</id>
+        <link href="http://kddksh.github.io/post/hello">
         </link>
-        <updated>2018-12-25T03:02:03.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>Knitem</strong></p>
-<p>一个为“DK小白”而诞生的静态知识链接平台（//▽//）</p>
+        <updated>2019-02-19T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>DKK</strong> 静态知识链接平台。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>Knitem</strong></p>
-<p>一个为“DK小白”而诞生的静态知识链接平台（//▽//）</p>
+        <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>DKK</strong> 静态知识链接平台。</p>
 ]]></content>
     </entry>
 </feed>
