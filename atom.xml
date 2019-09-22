@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://knitem.github.io/kddksh/</id>
+    <id>http://kddksh.github.io</id>
     <title>Knitem</title>
-    <updated>2019-09-22T14:22:16.317Z</updated>
+    <updated>2019-09-22T14:27:52.123Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://knitem.github.io/kddksh/"/>
-    <link rel="self" href="http://knitem.github.io/kddksh//atom.xml"/>
+    <link rel="alternate" href="http://kddksh.github.io"/>
+    <link rel="self" href="http://kddksh.github.io/atom.xml"/>
     <subtitle>临渊羡鱼，不如退而结网。</subtitle>
-    <logo>http://knitem.github.io/kddksh//images/avatar.png</logo>
-    <icon>http://knitem.github.io/kddksh//favicon.ico</icon>
+    <logo>http://kddksh.github.io/images/avatar.png</logo>
+    <icon>http://kddksh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Knitem</rights>
     <entry>
         <title type="html"><![CDATA[STEP 1 搬砖入门]]></title>
-        <id>http://knitem.github.io/kddksh//post/step1</id>
-        <link href="http://knitem.github.io/kddksh//post/step1">
+        <id>http://kddksh.github.io/post/step1</id>
+        <link href="http://kddksh.github.io/post/step1">
         </link>
         <updated>2019-09-22T06:55:01.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Knowledge list知识清单]]></title>
-        <id>http://knitem.github.io/kddksh//post/guide-in-knitem</id>
-        <link href="http://knitem.github.io/kddksh//post/guide-in-knitem">
+        <id>http://kddksh.github.io/post/guide-in-knitem</id>
+        <link href="http://kddksh.github.io/post/guide-in-knitem">
         </link>
         <updated>2019-09-22T06:00:49.000Z</updated>
         <summary type="html"><![CDATA[<p>跟着KK，挣它一个亿( ´◔ ‸◔`)</p>
@@ -30,8 +30,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Knitem]]></title>
-        <id>http://knitem.github.io/kddksh//post/hello-knitem</id>
-        <link href="http://knitem.github.io/kddksh//post/hello-knitem">
+        <id>http://kddksh.github.io/post/hello-knitem</id>
+        <link href="http://kddksh.github.io/post/hello-knitem">
         </link>
         <updated>2018-12-25T03:02:03.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>Knitem</strong></p>
