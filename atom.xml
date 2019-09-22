@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://kddksh.github.io</id>
     <title>Knitem</title>
-    <updated>2019-09-22T14:27:52.123Z</updated>
+    <updated>2019-09-22T14:29:50.647Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://kddksh.github.io"/>
     <link rel="self" href="http://kddksh.github.io/atom.xml"/>
@@ -10,24 +10,6 @@
     <logo>http://kddksh.github.io/images/avatar.png</logo>
     <icon>http://kddksh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Knitem</rights>
-    <entry>
-        <title type="html"><![CDATA[STEP 1 搬砖入门]]></title>
-        <id>http://kddksh.github.io/post/step1</id>
-        <link href="http://kddksh.github.io/post/step1">
-        </link>
-        <updated>2019-09-22T06:55:01.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Knowledge list知识清单]]></title>
-        <id>http://kddksh.github.io/post/guide-in-knitem</id>
-        <link href="http://kddksh.github.io/post/guide-in-knitem">
-        </link>
-        <updated>2019-09-22T06:00:49.000Z</updated>
-        <summary type="html"><![CDATA[<p>跟着KK，挣它一个亿( ´◔ ‸◔`)</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>跟着KK，挣它一个亿( ´◔ ‸◔`)</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Knitem]]></title>
         <id>http://kddksh.github.io/post/hello-knitem</id>
