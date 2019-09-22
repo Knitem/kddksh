@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://kddksh.github.io</id>
     <title>DKK</title>
-    <updated>2019-09-22T14:36:23.582Z</updated>
+    <updated>2019-09-22T14:37:48.218Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://kddksh.github.io"/>
     <link rel="self" href="http://kddksh.github.io/atom.xml"/>
@@ -19,6 +19,30 @@
         <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>DKK</strong> 静态知识链接平台。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>DKK</strong> 静态知识链接平台。</p>
+<!-- more -->
+<h4 id="step-1-搬砖入门httpskddkshgithubiopoststep1">[STEP 1 搬砖入门]{https://kddksh.github.io/post/step1/}</h4>
+<p>了解 KD&amp;DK<br>
+了解 ERP行业基础知识<br>
+了解 KD&amp;DK ERP基础知识<br>
+了解 基础业务流程</p>
+<h4 id="step-2-搬砖说明配置中">STEP 2 搬砖说明（配置中）</h4>
+<p>了解 岗位业务流程<br>
+了解 岗位职责<br>
+了解 任职标准<br>
+了解 履职标准</p>
+<h4 id="step-3-搬砖装备配置中">STEP 3 搬砖装备（配置中）</h4>
+<p>掌握 硬技能<br>
+掌握 软技能<br>
+掌握 专业工具</p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以找到来自小白的<strong>方向感</strong>。</p>
+<p>🌉  你可以跟着指南打卡一个个<strong>小目标</strong>。</p>
+<p>🏷️  你可以获得每一个小目标搭配的<strong>小锦囊</strong>。</p>
+<p>💬  你可以获得锦囊中<strong>小K提供的帮助</strong>。</p>
+<p>📋  你可以收到及时更新的与你工作相关的<strong>Bark</strong>  。</p>
+<p>🌱  <strong>Knitem</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>
+<p>希望你们能够在每一个迷茫的时刻想起它(ง •̀灬•́)ง</p>
+<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
