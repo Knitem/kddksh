@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sandra-www.github.io/</id>
     <title>Knitem</title>
-    <updated>2019-09-22T05:24:22.728Z</updated>
+    <updated>2019-09-22T08:39:48.652Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sandra-www.github.io/"/>
     <link rel="self" href="https://sandra-www.github.io//atom.xml"/>
@@ -11,18 +11,34 @@
     <icon>https://sandra-www.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Knitem</rights>
     <entry>
+        <title type="html"><![CDATA[KD&DK]]></title>
+        <id>https://sandra-www.github.io//post/kdanddk</id>
+        <link href="https://sandra-www.github.io//post/kdanddk">
+        </link>
+        <updated>2019-09-22T06:55:01.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Knowledge list知识清单]]></title>
+        <id>https://sandra-www.github.io//post/guide-in-knitem</id>
+        <link href="https://sandra-www.github.io//post/guide-in-knitem">
+        </link>
+        <updated>2019-09-22T06:00:49.000Z</updated>
+        <summary type="html"><![CDATA[<p>跟着KK，挣它一个亿( ´◔ ‸◔`)</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>跟着KK，挣它一个亿( ´◔ ‸◔`)</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hello Knitem]]></title>
         <id>https://sandra-www.github.io//post/hello-knitem</id>
         <link href="https://sandra-www.github.io//post/hello-knitem">
         </link>
         <updated>2018-12-25T03:02:03.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>Knitem</strong> （//▽//）<br>
-✍️  <strong>Knitem</strong> 是一个旨在“助力KDDK新人成长”而诞生的静态知识链接平台，由KDDK上海区发起并努力维护着(..•˘_˘•..)</p>
-<p>🌉希望你们能够在每一个迷茫的夜晚想起我(ง •̀灬•́)ง... ...</p>
+        <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>Knitem</strong></p>
+<p>一个为“DK小白”而诞生的静态知识链接平台（//▽//）</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>Knitem</strong> （//▽//）<br>
-✍️  <strong>Knitem</strong> 是一个旨在“助力KDDK新人成长”而诞生的静态知识链接平台，由KDDK上海区发起并努力维护着(..•˘_˘•..)</p>
-<p>🌉希望你们能够在每一个迷茫的夜晚想起我(ง •̀灬•́)ง... ...</p>
+        <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>Knitem</strong></p>
+<p>一个为“DK小白”而诞生的静态知识链接平台（//▽//）</p>
 ]]></content>
     </entry>
 </feed>
