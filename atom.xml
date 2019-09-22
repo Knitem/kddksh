@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kddksh.github.io</id>
     <title>KD-DK-SH</title>
-    <updated>2019-09-22T14:58:13.397Z</updated>
+    <updated>2019-09-22T15:06:28.974Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kddksh.github.io"/>
     <link rel="self" href="https://kddksh.github.io/atom.xml"/>
@@ -17,36 +17,14 @@
         </link>
         <updated>2019-02-19T01:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎来到 <strong>KD-DK-SH</strong> 静态知识链接平台。</p>
-<h4 id="step-1-搬砖入门"><a href="https://kddksh.github.io/post/step1/">STEP 1 搬砖入门</a></h4>
-<p>了解 KD&amp;DK<br>
-了解 ERP行业基础知识<br>
-了解 KD&amp;DK ERP基础知识<br>
-了解 基础业务流程</p>
-<h4 id="step-2-搬砖说明配置中">STEP 2 搬砖说明（配置中）</h4>
-<p>了解 岗位业务流程<br>
-了解 岗位职责<br>
-了解 任职标准<br>
-了解 履职标准</p>
-<h4 id="step-3-搬砖装备配置中">STEP 3 搬砖装备（配置中）</h4>
-<p>掌握 硬技能<br>
-掌握 软技能<br>
-掌握 专业工具</p>
+<p><a href="https://kddksh.github.io/post/step-1/">STEP 1 搬砖入门</a><br>
+<a href="https://kddksh.github.io/post/step-2/">STEP 2 搬砖说明（配置中）</a><br>
+<a href="https://kddksh.github.io/post/step-3/">STEP 3 搬砖装备（配置中）</a></p>
 ]]></summary>
         <content type="html"><![CDATA[<p>👏  欢迎来到 <strong>KD-DK-SH</strong> 静态知识链接平台。</p>
-<h4 id="step-1-搬砖入门"><a href="https://kddksh.github.io/post/step1/">STEP 1 搬砖入门</a></h4>
-<p>了解 KD&amp;DK<br>
-了解 ERP行业基础知识<br>
-了解 KD&amp;DK ERP基础知识<br>
-了解 基础业务流程</p>
-<h4 id="step-2-搬砖说明配置中">STEP 2 搬砖说明（配置中）</h4>
-<p>了解 岗位业务流程<br>
-了解 岗位职责<br>
-了解 任职标准<br>
-了解 履职标准</p>
-<h4 id="step-3-搬砖装备配置中">STEP 3 搬砖装备（配置中）</h4>
-<p>掌握 硬技能<br>
-掌握 软技能<br>
-掌握 专业工具</p>
+<p><a href="https://kddksh.github.io/post/step-1/">STEP 1 搬砖入门</a><br>
+<a href="https://kddksh.github.io/post/step-2/">STEP 2 搬砖说明（配置中）</a><br>
+<a href="https://kddksh.github.io/post/step-3/">STEP 3 搬砖装备（配置中）</a></p>
 ]]></content>
     </entry>
 </feed>
