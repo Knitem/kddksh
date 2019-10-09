@@ -2,13 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kddksh.github.io</id>
     <title>kd-dk-sh</title>
-    <updated>2019-10-09T08:21:53.950Z</updated>
+    <updated>2019-10-09T08:24:29.381Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kddksh.github.io"/>
     <link rel="self" href="https://kddksh.github.io/atom.xml"/>
     <logo>https://kddksh.github.io/images/avatar.png</logo>
     <icon>https://kddksh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, kd-dk-sh</rights>
+    <entry>
+        <title type="html"><![CDATA[线上培训：KIS云旗舰版的观看通知]]></title>
+        <id>https://kddksh.github.io/post/b6uS_Rm5e</id>
+        <link href="https://kddksh.github.io/post/b6uS_Rm5e">
+        </link>
+        <updated>2019-10-09T08:22:39.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[双百伙伴：淘汰的提醒]]></title>
         <id>https://kddksh.github.io/post/shuang-bai-huo-ban-tao-tai-de-ti-xing</id>
@@ -36,12 +43,5 @@
         <link href="https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi">
         </link>
         <updated>2019-10-09T06:04:22.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Q4云普惠：申请截止的通知]]></title>
-        <id>https://kddksh.github.io/post/q4-yun-pu-hui-shen-qing-jie-zhi-de-tong-zhi</id>
-        <link href="https://kddksh.github.io/post/q4-yun-pu-hui-shen-qing-jie-zhi-de-tong-zhi">
-        </link>
-        <updated>2019-10-08T06:06:48.000Z</updated>
     </entry>
 </feed>
