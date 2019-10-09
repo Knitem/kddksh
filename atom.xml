@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kddksh.github.io</id>
     <title>KD-DK-SH</title>
-    <updated>2019-10-09T05:56:52.454Z</updated>
+    <updated>2019-10-09T05:57:05.426Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kddksh.github.io"/>
     <link rel="self" href="https://kddksh.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://kddksh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, KD-DK-SH</rights>
     <entry>
-        <title type="html"><![CDATA[Hello]]></title>
+        <title type="html"><![CDATA[Index]]></title>
         <id>https://kddksh.github.io/post/hello</id>
         <link href="https://kddksh.github.io/post/hello">
         </link>
