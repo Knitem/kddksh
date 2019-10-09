@@ -1,136 +1,254 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
- <head>
-    <meta charset="utf-8" />
-  <title>商务运营 | Yeah</title>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <link rel="stylesheet" href="https://kddksh.github.io/styles/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
- </head>
- <body>
-     <div class="sidebar animated fadeInDown">
-   <div class="logo-title">
-    <div class="title">
-     <img src="https://kddksh.github.io/images/avatar.png?v=1570605479494" style="width:127px;" />
+<html>
+  <head>
+    <meta charset="utf-8" >
 
-     <div class="description">
-      <p></p>
-     </div>
-    </div>
-   </div>
-   <ul class="social-links">
+<title>商务运营 | Yeah</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://kddksh.github.io/favicon.ico?v=1570605635088">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://kddksh.github.io/styles/main.css">
 
 
-    
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-    
 
-    
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-   </ul>
-   <div class="footer">
-    <div class="by_farbox">
-   Powered by <a href="https://github.com/getgridea/gridea" 
- target="_blank">Gridea</a> ||<a href="<%= themeConfig.domain %>/atom.xml">RSS<a/>
-    </div>
-    
-
-    </div>
-   </div>
+  </head>
+  <body>
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://kddksh.github.io">Yeah</a></h3>
   </div>
-  <div class="main">
-      <div class="page-top animated fadeInDown">
-    <div class="nav">
-
-     <li><a  href="https://kddksh.github.io">Notice</a></li>
-
-     <li><a  href="https://kddksh.github.io/post/hello/">Training</a></li>
-
-     <li><a  href="https://kddksh.github.io/tags">Tags</a></li>
-
-
-    </div>
-    <div class="information">
-     <div class="back_btn">
-      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li>
-     </div>
-    </div>
-   </div>
-   <div class="autopagerize_page_element">
-    <div class="content">
-              
-     <div class="post animated fadeInDown">
-      <div class="post-title">
-       <h3><a href="https://kddksh.github.io/post/te-jie-ding-huo-shen-qing-dui-xian-te-jie-jiang-li-de-tong-zhi">特价订货：申请兑现特价奖励的通知</a></h3>
-      </div>
-      <div class="post-content">
-       <p></p>
-      </div>
-      <div class="post-footer">
-       <div class="meta">
-        <div class="info">
-         <i class="fa fa-sun-o"></i>
-         <span class="date">2019-10-09</span>
-         <i class="fa fa-tag"></i>
-         
-         <a class="tag" href="https://kddksh.github.io/tag/oO2v6qWwn" title="商务运营">商务运营 </a>
-         
-        </div>
-       </div>
-      </div>
-     </div>
-       
-     <div class="post animated fadeInDown">
-      <div class="post-title">
-       <h3><a href="https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi">服务产品：提示没有权限加站加模的答疑</a></h3>
-      </div>
-      <div class="post-content">
-       <p></p>
-      </div>
-      <div class="post-footer">
-       <div class="meta">
-        <div class="info">
-         <i class="fa fa-sun-o"></i>
-         <span class="date">2019-10-09</span>
-         <i class="fa fa-tag"></i>
-         
-         <a class="tag" href="https://kddksh.github.io/tag/oO2v6qWwn" title="商务运营">商务运营 </a>
-         
-        </div>
-       </div>
-      </div>
-     </div>
-     
-     <div class="pagination">
-      <ul class="clearfix">
-            
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-
+          <li>
+            
+              <a href="https://kddksh.github.io" class="menu">
+                Notice
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://kddksh.github.io/post/hello/" class="menu">
+                Training
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://kddksh.github.io/tags" class="menu">
+                Tags
+              </a>
+            
+          </li>
+        
       </ul>
-     </div>
     </div>
-   </div>
   </div>
-  <script src="https://kddksh.github.io/media/scripts/jquery.js"></script>
-  <script src="https://kddksh.github.io/media/scripts/jquery-migrate-1.2.1.min.js"></script>
-  <script src="https://kddksh.github.io/media/scripts/jquery.appear.js"></script>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <h2 class="current-tag">标签: 商务运营</h2>
+          
+  <article class="article">
+    <h2 class="article-title">
+      <a href="https://kddksh.github.io/post/te-jie-ding-huo-shen-qing-dui-xian-te-jie-jiang-li-de-tong-zhi">特价订货：申请兑现特价奖励的通知</a>
+    </h2>
+    <p class="article-meta">
+      2019-10-09
+      
+        <a href="https://kddksh.github.io/tag/oO2v6qWwn" class="badge secondary">
+          商务运营
+        </a>
+      
+    </p>
+    <p class="text-lead">
+      
+    </p>
+    <div class="row">
+      <a href="https://kddksh.github.io/post/te-jie-ding-huo-shen-qing-dui-xian-te-jie-jiang-li-de-tong-zhi" class="readmore-link">
+        <button>
+          Read More
+        </button>
+      </a>
+    </div>
+  </article>
+
+  <article class="article">
+    <h2 class="article-title">
+      <a href="https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi">服务产品：提示没有权限加站加模的答疑</a>
+    </h2>
+    <p class="article-meta">
+      2019-10-09
+      
+        <a href="https://kddksh.github.io/tag/oO2v6qWwn" class="badge ">
+          商务运营
+        </a>
+      
+    </p>
+    <p class="text-lead">
+      
+    </p>
+    <div class="row">
+      <a href="https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi" class="readmore-link">
+        <button>
+          Read More
+        </button>
+      </a>
+    </div>
+  </article>
 
 
- </body>
+        </div>
+        <div class="row flex-edges">
+  
+  
+</div>
+
+      </div>
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://kddksh.github.io/images/avatar.png?v=1570605635088" class="no-responsive avatar">
+    <div class="text-muted"></div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://kddksh.github.io/post/shuang-bai-huo-ban-tao-tai-de-ti-xing">双百伙伴：淘汰的提醒</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kddksh.github.io/post/shuang-bai-huo-ban-10-yue-shen-qing-jia-ru-de-tong-zhi">双百伙伴：10月申请加入的通知</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kddksh.github.io/post/te-jie-ding-huo-shen-qing-dui-xian-te-jie-jiang-li-de-tong-zhi">特价订货：申请兑现特价奖励的通知</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi">服务产品：提示没有权限加站加模的答疑</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kddksh.github.io/post/q4-yun-pu-hui-shen-qing-jie-zhi-de-tong-zhi">Q4云普惠：申请截止的通知</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kddksh.github.io/post/san-xiao-shi-gong-zuo-fang-bao-xiao-yan-qi-de-tong-zhi">三小时工作坊：报销延期的通知</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kddksh.github.io/post/q3-yun-pu-hui-bao-xiao-jie-zhi-tong-zhi">Q3云普惠：报销截止通知</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kddksh.github.io/post/qian-ren-ji-hua-fan-kui-biao-ti-jiao-de-tong-zhi">千人计划：反馈表提交的通知</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://kddksh.github.io/tag/5fBxS7sQR" class="badge secondary">
+          渠道政策
+        </a>
+      
+        <a href="https://kddksh.github.io/tag/oO2v6qWwn" class="badge secondary">
+          商务运营
+        </a>
+      
+        <a href="https://kddksh.github.io/tag/9pqeR3q6j" class="badge secondary">
+          市场营销
+        </a>
+      
+        <a href="https://kddksh.github.io/tag/Lut9Nwy2e" class="badge success">
+          人力资源
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" 
+ target="_blank">Gridea</a> |<a href="<%= themeConfig.domain %>/atom.xml">RSS<a/> | <a class="rss" href="https://kddksh.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
 </html>
