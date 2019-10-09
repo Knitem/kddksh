@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kddksh.github.io</id>
     <title>KD-DK-SH</title>
-    <updated>2019-10-09T06:01:03.160Z</updated>
+    <updated>2019-10-09T06:09:30.332Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kddksh.github.io"/>
     <link rel="self" href="https://kddksh.github.io/atom.xml"/>
@@ -10,4 +10,39 @@
     <logo>https://kddksh.github.io/images/avatar.png</logo>
     <icon>https://kddksh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, KD-DK-SH</rights>
+    <entry>
+        <title type="html"><![CDATA[双百伙伴：淘汰的提醒]]></title>
+        <id>https://kddksh.github.io/post/shuang-bai-huo-ban-tao-tai-de-ti-xing</id>
+        <link href="https://kddksh.github.io/post/shuang-bai-huo-ban-tao-tai-de-ti-xing">
+        </link>
+        <updated>2019-10-09T06:09:14.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[双百伙伴：10月申请加入的通知]]></title>
+        <id>https://kddksh.github.io/post/shuang-bai-huo-ban-10-yue-shen-qing-jia-ru-de-tong-zhi</id>
+        <link href="https://kddksh.github.io/post/shuang-bai-huo-ban-10-yue-shen-qing-jia-ru-de-tong-zhi">
+        </link>
+        <updated>2019-10-09T06:08:51.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特价订货：申请兑现特价奖励的通知]]></title>
+        <id>https://kddksh.github.io/post/te-jie-ding-huo-shen-qing-dui-xian-te-jie-jiang-li-de-tong-zhi</id>
+        <link href="https://kddksh.github.io/post/te-jie-ding-huo-shen-qing-dui-xian-te-jie-jiang-li-de-tong-zhi">
+        </link>
+        <updated>2019-10-09T06:08:06.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[服务产品：提示没有权限加站加模的答疑]]></title>
+        <id>https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi</id>
+        <link href="https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi">
+        </link>
+        <updated>2019-10-09T06:04:22.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Q4云普惠：申请截止的通知]]></title>
+        <id>https://kddksh.github.io/post/q4-yun-pu-hui-shen-qing-jie-zhi-de-tong-zhi</id>
+        <link href="https://kddksh.github.io/post/q4-yun-pu-hui-shen-qing-jie-zhi-de-tong-zhi">
+        </link>
+        <updated>2019-10-08T06:06:48.000Z</updated>
+    </entry>
 </feed>
