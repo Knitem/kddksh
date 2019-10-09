@@ -1,156 +1,128 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>三小时工作坊：报销延期的通知 | KD-DK-SH</title>
-<meta name="description" content="临渊羡鱼，不如退而结网。" />
-<link rel="shortcut icon" href="https://kddksh.github.io/favicon.ico?v=1570601528485">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://kddksh.github.io/styles/main.css">
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+     <meta charset="utf-8" />
+  <title>三小时工作坊：报销延期的通知 | KD-DK-SH</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="https://kddksh.github.io/styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+ </head>
+ <body>
+     <div class="sidebar animated fadeInDown">
+   <div class="logo-title">
+    <div class="title">
+     <img src="https://kddksh.github.io/images/avatar.png?v=1570602898845" style="width:127px;" />
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
-
-
-
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://kddksh.github.io">
-  <img class="avatar" src="https://kddksh.github.io/images/avatar.png?v=1570601528485" alt="">
-  </a>
-  <h1 class="site-title">
-    KD-DK-SH
-  </h1>
-  <p class="site-description">
-    临渊羡鱼，不如退而结网。
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="https://kddksh.github.io" class="menu">
-          Notice
-        </a>
-      
-    
-      
-        <a href="https://kddksh.github.io/post/hello/" class="menu">
-          Training
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              三小时工作坊：报销延期的通知
-            </h2>
-            <div class="post-info">
-              <span>
-                2019-10-08
-              </span>
-              <span>
-                1 min read
-              </span>
-              
-                <a href="https://kddksh.github.io/tag/Lut9Nwy2e" class="post-tag">
-                  # 人力资源
-                </a>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>目前工作坊的预算还没下来，预算下来后，统一提交市场活动总结报销，请大家耐心等待报销通知。省区垫付的邮费可以用预算号单独走市场费用报销，还未提交活动照片及视频尽快提交。</p>
-
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
-        </div>
-
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://kddksh.github.io/post/q3-yun-pu-hui-bao-xiao-jie-zhi-tong-zhi">
-              <h3 class="post-title">
-                Q3云普惠：报销截止通知
-              </h3>
-            </a>
-          </div>
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" 
- target="_blank">Gridea</a> | 
-  <a class="rss" href="https://kddksh.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-
-  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
-
-  // This should probably be throttled.
-  // Especially because it triggers during smooth scrolling.
-  // https://lodash.com/docs/4.17.10#throttle
-  // You could do like...
-  // window.addEventListener("scroll", () => {
-  //    _.throttle(doThatStuff, 100);
-  // });
-  // Only not doing it here to keep this Pen dependency-free.
-
-  window.addEventListener("scroll", event => {
-    let fromTop = window.scrollY;
-
-    mainNavLinks.forEach((link, index) => {
-      let section = document.getElementById(decodeURI(link.hash).substring(1));
-      let nextSection = null
-      if (mainNavLinks[index + 1]) {
-        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-      }
-      console.log('section.offsetHeight', section.offsetHeight);
-      if (section.offsetTop <= fromTop) {
-        if (nextSection) {
-          if (nextSection.offsetTop > fromTop) {
-            link.classList.add("current");
-          } else {
-            link.classList.remove("current");    
-          }
-        } else {
-          link.classList.add("current");
-        }
-      } else {
-        link.classList.remove("current");
-      }
-    });
-  });
-
-</script>
-
-      </div>
+     <div class="description">
+      <p>临渊羡鱼，不如退而结网。</p>
+     </div>
     </div>
-  </body>
+   </div>
+   <ul class="social-links">
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+   </ul>
+   <div class="footer">
+    <div class="by_farbox">
+   Powered by <a href="https://github.com/getgridea/gridea" 
+ target="_blank">Gridea</a>
+    </div>
+    
+
+    </div>
+   </div>
+  </div>
+  <div class="main">
+     <div class="page-top animated fadeInDown">
+    <div class="nav">
+    
+     <li><a  href="https://kddksh.github.io">Notice</a></li>
+
+     <li><a  href="https://kddksh.github.io/post/hello/">Training</a></li>
+
+    </div>
+    <div class="information">
+     <div class="back_btn">
+      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)"> </a></li>
+     </div>
+    </div>
+   </div>
+   <div class="autopagerize_page_element">
+    <div class="content">
+     <div class="post-page">
+      <div class="post animated fadeInDown">
+       <div class="post-title">
+        <h3><a>三小时工作坊：报销延期的通知</a></h3>
+       </div>
+       <div class="post-content">
+        <p>目前工作坊的预算还没下来，预算下来后，统一提交市场活动总结报销，请大家耐心等待报销通知。省区垫付的邮费可以用预算号单独走市场费用报销，还未提交活动照片及视频尽快提交。</p>
+
+       </div>
+       <div class="post-footer">
+        <div class="meta">
+         <div class="info">
+          <i class="fa fa-sun-o"></i>
+          <span class="date">2019-10-08</span>
+          <i class="fa fa-tag"></i>
+          
+          <a class="tag" href="https://kddksh.github.io/tag/Lut9Nwy2e" title="人力资源">人力资源 </a>
+          
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="share">
+       <div class="evernote">
+        <a class="fa fa-bookmark" href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank"></a>
+       </div>
+       <div class="weibo">
+        <a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
+       </div>
+       <div class="twitter">
+        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://kddksh.github.io/post/san-xiao-shi-gong-zuo-fang-bao-xiao-yan-qi-de-tong-zhi,;"></a>
+       </div>
+      </div>
+      <div class="pagination">
+       <ul class="clearfix">
+
+        <li class="pre pagbuttons"><a class="btn" role="navigation" href="https://kddksh.github.io/post/q4-yun-pu-hui-shen-qing-jie-zhi-de-tong-zhi" title="Q4云普惠：申请截止的通知">上一篇</a></li>
+         
+        
+        <li class="next pagbuttons"><a class="btn" role="navigation" href="https://kddksh.github.io/post/q3-yun-pu-hui-bao-xiao-jie-zhi-tong-zhi" title=" Q3云普惠：报销截止通知">下一篇</a></li>
+        
+       </ul>
+      </div>
+        
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="https://kddksh.github.io/media/scripts/jquery.js"></script>
+  <script src="https://kddksh.github.io/media/scripts/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://kddksh.github.io/media/scripts/jquery.appear.js"></script>
+
+
+ </body>
 </html>
