@@ -1,213 +1,194 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+   <meta charset="utf-8" />
+  <title>Yeah</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+  <link rel="stylesheet" href="https://kddksh.github.io/styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+   <script src="https://cdn.staticfile.org/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+ </head>
+ <body>
+         <div class="sidebar animated fadeInDown">
+   <div class="logo-title">
+    <div class="title">
+     <img src="https://kddksh.github.io/images/avatar.png?v=1570605095588" style="width:127px;" />
+
+     <div class="description">
+      <p></p>
+     </div>
+    </div>
+   </div>
+   <ul class="social-links">
+
+
     
-<meta charset="utf-8" >
 
-<title>Yeah</title>
-<meta name="description" content="">
+    
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://kddksh.github.io/favicon.ico?v=1570603615910">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="https://kddksh.github.io/styles/main.css">
+    
 
+    
 
+    
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+    
 
+    
 
+    
 
-  </head>
-  <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://kddksh.github.io">
-        <img class="avatar" src="https://kddksh.github.io/images/avatar.png?v=1570603615910" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://kddksh.github.io">
-        <h1 class="site-title">Yeah</h1>
-      </a>
+    
+
+   </ul>
+   <div class="footer">
+    <div class="by_farbox">
+   Powered by <a href="https://github.com/getgridea/gridea" 
+ target="_blank">Gridea</a>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
+    
+
     </div>
+   </div>
   </div>
-</div>
+  <div class="main">
+          <div class="page-top animated fadeInDown">
+    <div class="nav">
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="https://kddksh.github.io" class="menu purple-link">
-            Notice
-          </a>
-        
-      
-        
-          <a href="https://kddksh.github.io/post/hello/" class="menu purple-link">
-            Training
-          </a>
-        
-      
-        
-          <a href="https://kddksh.github.io/tags" class="menu purple-link">
-            Tags
-          </a>
-        
-      
+     <li><a  href="https://kddksh.github.io">Notice</a></li>
+
+     <li><a  href="https://kddksh.github.io/post/hello/">Training</a></li>
+
+     <li><a  href="https://kddksh.github.io/tags">Tags</a></li>
+
+
     </div>
-  </div>
-</transition>
-
-
-        <div class="content-container">
-          
-          
-
-<div class="archives-container">
-  
-    <h2 class="year">2019</h2>
-    
+    <div class="information">
+     <div class="back_btn">
+      <li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li>
+     </div>
+    </div>
+   </div>
+   <div class="autopagerize_page_element">
+    <div class="content">
+     <div class="archive animated fadeInDown">
+      <ul class="list-with-title">
+       <div class="archive">
       
-        <article class="post">
-          <a href="https://kddksh.github.io/post/shuang-bai-huo-ban-tao-tai-de-ti-xing">
-            <h2 class="post-title">
-              双百伙伴：淘汰的提醒
-              <small>2019-10-09</small>
-            </h2>
-          </a>
-        </article>
       
-    
-      
-        <article class="post">
-          <a href="https://kddksh.github.io/post/shuang-bai-huo-ban-10-yue-shen-qing-jia-ru-de-tong-zhi">
-            <h2 class="post-title">
-              双百伙伴：10月申请加入的通知
-              <small>2019-10-09</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://kddksh.github.io/post/te-jie-ding-huo-shen-qing-dui-xian-te-jie-jiang-li-de-tong-zhi">
-            <h2 class="post-title">
-              特价订货：申请兑现特价奖励的通知
-              <small>2019-10-09</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi">
-            <h2 class="post-title">
-              服务产品：提示没有权限加站加模的答疑
-              <small>2019-10-09</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://kddksh.github.io/post/q4-yun-pu-hui-shen-qing-jie-zhi-de-tong-zhi">
-            <h2 class="post-title">
-              Q4云普惠：申请截止的通知
-              <small>2019-10-08</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://kddksh.github.io/post/san-xiao-shi-gong-zuo-fang-bao-xiao-yan-qi-de-tong-zhi">
-            <h2 class="post-title">
-              三小时工作坊：报销延期的通知
-              <small>2019-10-08</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://kddksh.github.io/post/q3-yun-pu-hui-bao-xiao-jie-zhi-tong-zhi">
-            <h2 class="post-title">
-              Q3云普惠：报销截止通知
-              <small>2019-10-08</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://kddksh.github.io/post/qian-ren-ji-hua-fan-kui-biao-ti-jiao-de-tong-zhi">
-            <h2 class="post-title">
-              千人计划：反馈表提交的通知
-              <small>2019-10-08</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
-</div>
-
-
+        <div class="listing-title">
+                2019
         </div>
 
-        <div class="site-footer">
-  <div class="slogan"></div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" 
- target="_blank">Gridea</a> | <a class="rss" href="https://kddksh.github.io/atom.xml" target="_blank">RSS</a>
-</div>
+        <ul class="listing">
 
-
-      </div>
-      <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
-</script>
-
-
-
-
+                
+                             
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="https://kddksh.github.io/post/shuang-bai-huo-ban-tao-tai-de-ti-xing" title="双百伙伴：淘汰的提醒">双百伙伴：淘汰的提醒</a>
+           <div class="post-time">
+            <span class="date">2019-10-09 </span>
+           </div>
+          </div>
+         </div>
+         
+         
+                             
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="https://kddksh.github.io/post/shuang-bai-huo-ban-10-yue-shen-qing-jia-ru-de-tong-zhi" title="双百伙伴：10月申请加入的通知">双百伙伴：10月申请加入的通知</a>
+           <div class="post-time">
+            <span class="date">2019-10-09 </span>
+           </div>
+          </div>
+         </div>
+         
+         
+                             
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="https://kddksh.github.io/post/te-jie-ding-huo-shen-qing-dui-xian-te-jie-jiang-li-de-tong-zhi" title="特价订货：申请兑现特价奖励的通知">特价订货：申请兑现特价奖励的通知</a>
+           <div class="post-time">
+            <span class="date">2019-10-09 </span>
+           </div>
+          </div>
+         </div>
+         
+         
+                             
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="https://kddksh.github.io/post/fu-wu-chan-pin-ti-shi-mei-you-quan-xian-jia-zhan-jia-mo-de-da-yi" title="服务产品：提示没有权限加站加模的答疑">服务产品：提示没有权限加站加模的答疑</a>
+           <div class="post-time">
+            <span class="date">2019-10-09 </span>
+           </div>
+          </div>
+         </div>
+         
+         
+                             
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="https://kddksh.github.io/post/q4-yun-pu-hui-shen-qing-jie-zhi-de-tong-zhi" title="Q4云普惠：申请截止的通知">Q4云普惠：申请截止的通知</a>
+           <div class="post-time">
+            <span class="date">2019-10-08 </span>
+           </div>
+          </div>
+         </div>
+         
+         
+                             
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="https://kddksh.github.io/post/san-xiao-shi-gong-zuo-fang-bao-xiao-yan-qi-de-tong-zhi" title="三小时工作坊：报销延期的通知">三小时工作坊：报销延期的通知</a>
+           <div class="post-time">
+            <span class="date">2019-10-08 </span>
+           </div>
+          </div>
+         </div>
+         
+         
+                             
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="https://kddksh.github.io/post/q3-yun-pu-hui-bao-xiao-jie-zhi-tong-zhi" title="Q3云普惠：报销截止通知">Q3云普惠：报销截止通知</a>
+           <div class="post-time">
+            <span class="date">2019-10-08 </span>
+           </div>
+          </div>
+         </div>
+         
+         
+                             
+         <div class="listing-item">
+          <div class="listing-post">
+           <a href="https://kddksh.github.io/post/qian-ren-ji-hua-fan-kui-biao-ti-jiao-de-tong-zhi" title="千人计划：反馈表提交的通知">千人计划：反馈表提交的通知</a>
+           <div class="post-time">
+            <span class="date">2019-10-08 </span>
+           </div>
+          </div>
+         </div>
+         
+         
+        </ul>
+        	
+       </div>
+       <div class="pagination">
+        <ul class="clearfix"></ul>
+       </div>
+      </ul>
+     </div>
     </div>
-  </body>
+   </div>
+  </div>
+   <script src="https://kddksh.github.io/media/scripts/jquery.js"></script>
+  <script src="https://kddksh.github.io/media/scripts/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://kddksh.github.io/media/scripts/jquery.appear.js"></script>
+
+
+ </body>
 </html>
