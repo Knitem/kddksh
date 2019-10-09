@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kddksh.github.io</id>
-    <title>Yeah</title>
-    <updated>2019-10-09T08:07:16.130Z</updated>
+    <title>kd-dk-sh</title>
+    <updated>2019-10-09T08:15:08.303Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kddksh.github.io"/>
     <link rel="self" href="https://kddksh.github.io/atom.xml"/>
     <logo>https://kddksh.github.io/images/avatar.png</logo>
     <icon>https://kddksh.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Yeah</rights>
+    <rights>All rights reserved 2019, kd-dk-sh</rights>
     <entry>
         <title type="html"><![CDATA[双百伙伴：淘汰的提醒]]></title>
         <id>https://kddksh.github.io/post/shuang-bai-huo-ban-tao-tai-de-ti-xing</id>
